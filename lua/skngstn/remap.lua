@@ -1,6 +1,9 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex) -- return to file tree
 
+-- split window vertically
+vim.keymap.set("n", "<C-s>", "<C-w>v")
+
 -- window movement
 vim.keymap.set("n", "<C-h>", "<C-w>h")
 vim.keymap.set("n", "<C-j>", "<C-w>j")
