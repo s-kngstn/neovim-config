@@ -43,3 +43,5 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 -- search and replace the current word you are on
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
+-- toggle relative line numbers
+vim.keymap.set("n", "<leader>r", ":set norelativenumber!<CR>")
